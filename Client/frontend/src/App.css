@@ -1,0 +1,70 @@
+html, body, #root{
+    height: 100%;
+    margin: 0;
+    padding: 0;   
+}
+
+.App{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0%;
+    margin: 0%;
+    background-color: rgba(0, 68, 255, 0.336);
+}
+
+.mainTitle{
+    text-align: center;
+}
+
+.container{
+    text-align: center;
+    align-content: center;
+    background-color: rgb(255, 134, 134);
+    margin: 10px;
+    padding: 10px;
+}
+
+.lrTitle{
+    margin-top: 0%;
+    color: white;
+}
+
+.lrLabel{
+    margin: 5px;
+    font-size: 20px;
+}
+
+.lrIn{
+    margin: 5px;
+    font-size: 20px;
+}
+
+.logButton{
+    font-size: 20px;
+    padding: 10px;
+    margin: 10px;
+    background-color: red;
+    color: white;
+    border: 0;
+    border-radius: 5px;
+}
+
+.logButton:hover{
+    border: 2px solid black;
+}
+
+.regButton{
+    font-size: 20px;
+    padding: 10px;
+    margin: 10px;
+    background-color: white;
+    color: red;
+    border: 0;
+    border-radius: 5px;
+}
+
+.regButton:hover{
+    border: 2px solid black;
+}
