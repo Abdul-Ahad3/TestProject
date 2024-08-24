@@ -51,6 +51,11 @@ html, body, #root{
     border-radius: 5px;
 }
 
+.logButton a{
+    text-decoration: none;
+    color: white;
+}
+
 .logButton:hover{
     border: 2px solid black;
 }
@@ -63,6 +68,11 @@ html, body, #root{
     color: red;
     border: 0;
     border-radius: 5px;
+}
+
+.regButton a{
+    text-decoration: none;
+    color: red;
 }
 
 .regButton:hover{
