@@ -1,22 +1,18 @@
 import './App.css';
-import Login from './Login'
-import Register from './Register'
+import LogReg from './LogReg'
+import Home from './Home'
+import {BrowserRouter as Router, Route, Routes} from 'react-router-dom'
 
 function App() {
   return (
-    <div className="App">
-      <table>
-        <tbody>
-          <tr>
-            <td colSpan={2}><h1 className='mainTitle'>WELCOME</h1></td>
-          </tr>
-          <tr>
-            <td><Login /></td>
-            <td><Register /></td>
-          </tr>
-        </tbody>
-      </table>
-    </div>
+    <Router>
+      <div className="App">
+        <Routes>
+          <Route path='/' Component={LogReg}/>
+          <Route path='/home' Component={Home}/>
+        </Routes>
+      </div>
+    </Router>
   );
 }
 
