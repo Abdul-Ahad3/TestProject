@@ -4,7 +4,7 @@ html, body, #root{
     padding: 0;   
 }
 
-.App{
+.signInPage{
     height: 100vh;
     display: flex;
     justify-content: center;
@@ -77,4 +77,40 @@ html, body, #root{
 
 .regButton:hover{
     border: 2px solid black;
+}
+
+.home{
+    height: 100vh;
+    padding: 0%;
+    margin: 0%;
+    background-color: rgba(0, 68, 255, 0.336);
+}
+
+.home h1{
+    margin-top: 0%;
+}
+
+.header{
+    display: flex;
+    flex-direction: row;
+    background-color: rgba(0, 68, 255, 0.336);
+    border: 1px solid black;
+}
+
+.profile{
+    border: 2px solid black;
+    padding: 5px;
+    margin: 10px;
+}
+
+.attendance{
+    border: 2px solid black;
+    padding: 5px;
+    margin: 10px;
+}
+
+.leave{
+    border: 2px solid black;
+    padding: 5px;
+    margin: 10px;
 }

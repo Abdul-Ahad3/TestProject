@@ -3,7 +3,7 @@ import {Link} from 'react-router-dom'
 
 function LogReg() {
   return (
-    <table>
+    <table className='signInPage'>
         <tbody>
             <tr>
                 <td className='container'>
@@ -12,7 +12,7 @@ function LogReg() {
                     <input className='lrIn' placeholder='abc123' type='email'/>
                     <br />
                     <label className='lrLabel'>Password: </label>
-                    <input className='lrIn'/>
+                    <input className='lrIn' type='password'/>
                     <br />
                     <button className='logButton'><Link to='/home'>Login</Link></button>
                 </td>
