@@ -104,13 +104,29 @@ html, body, #root{
 }
 
 .attendance{
+    background-color: rgb(255, 134, 134);
     border: 2px solid black;
     padding: 5px;
     margin: 10px;
 }
 
+.home h3{
+    margin-top: 2px;
+}
+
 .leave{
+    background-color: rgb(255, 134, 134);
     border: 2px solid black;
     padding: 5px;
     margin: 10px;
+}
+
+.applyButton{
+    font-size: 18px;
+    padding: 10px;
+    margin: 10px;
+    background-color: red;
+    color: white;
+    border: 0;
+    border-radius: 5px;   
 }
